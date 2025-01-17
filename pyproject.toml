@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "relatorio-py"
+version = "0.1.0"
+description = ""
+authors = ["Luhluh1993 <luckas.std@gmail.com>"]
+readme = "README.md"
+packages = [{include = "relatorio"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.41.1"
+pandas = "^2.2.3"
+pyperclip = "^1.9.0"
+pyautogui = "^0.9.54"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
